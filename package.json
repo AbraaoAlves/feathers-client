@@ -68,13 +68,13 @@
   },
   "types": "./index.d.ts",
   "dependencies": {
-    "feathers": "https://git@github.com/AbraaoAlves/feathers.git#definition",
-    "feathers-authentication-client": "https://git@github.com/AbraaoAlves/feathers-authentication-client.git#definition",
+    "feathers": "../feathers/feathers-2.0.3.tgz",
+    "feathers-authentication-client": "../feathers-authentication-client/feathers-authentication-client-0.1.6.tgz",
     "feathers-commons": "^0.8.7",
-    "feathers-hooks": "https://git@github.com/AbraaoAlves/feathers-hooks.git#definition",
-    "feathers-primus": "https://git@github.com/AbraaoAlves/feathers-primus.git#definition",
-    "feathers-rest": "https://git@github.com/AbraaoAlves/feathers-rest.git#definition",
-    "feathers-socketio": "https://git@github.com/AbraaoAlves/feathers-socketio.git#definition"
+    "feathers-hooks": "../feathers-hooks/feathers-hooks-1.7.1.tgz",
+    "feathers-primus": "../feathers-primus/feathers-primus-2.0.0.tgz",
+    "feathers-rest": "../feathers-rest/feathers-rest-1.5.3.tgz",
+    "feathers-socketio": "../feathers-socketio/feathers-socketio-1.4.2.tgz"
   },
   "devDependencies": {
     "babel-cli": "^6.1.4",
