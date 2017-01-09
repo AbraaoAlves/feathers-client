@@ -66,15 +66,15 @@
   "greenkeeper": {
     "ignore": "jsdom"
   },
-  "typings": "index.d.ts",
+  "types": "./index.d.ts",
   "dependencies": {
-    "feathers": "2.0.3",
-    "feathers-authentication": "0.7.12",
+    "feathers": "../feathers/feathers-2.0.3.tgz",
+    "feathers-authentication-client": "../feathers-authentication-client/feathers-authentication-client-0.1.6.tgz",
     "feathers-commons": "^0.8.7",
-    "feathers-hooks": "1.7.1",
-    "feathers-primus": "2.0.0",
-    "feathers-rest": "1.6.0",
-    "feathers-socketio": "1.4.2"
+    "feathers-hooks": "../feathers-hooks/feathers-hooks-1.7.1.tgz",
+    "feathers-primus": "../feathers-primus/feathers-primus-2.0.0.tgz",
+    "feathers-rest": "../feathers-rest/feathers-rest-1.5.3.tgz",
+    "feathers-socketio": "../feathers-socketio/feathers-socketio-1.4.2.tgz"
   },
   "devDependencies": {
     "babel-cli": "^6.1.4",

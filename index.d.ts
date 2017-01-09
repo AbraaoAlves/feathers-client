@@ -1,27 +1,17 @@
-import events = require('events');
+import feathers from 'feathers/client';
+import restDep from 'feathers-rest/client';
+import socketioDep from 'feathers-socketio/client';
+import primusDep from 'feathers-primus/client';
+import hooksDep from 'feathers-hooks';
+import authenticationDep from 'feathers-authentication-client';
 
-interface FeathersApp {
-  // Authentication.
-  authenticate(options: any) :Promise<any>;
-  logout(): void;
-  get(type: string): any;
+export default e;
 
-  // Services.
-  service(name: string): FeathersService;
-
-  configure(fn: () => void): FeathersApp;
-}
-
-interface FeathersService extends events.EventEmitter {
-  // REST interface.
-  find(params?: any): Promise<any>;
-  get(id: string, params?: any): Promise<any>;
-  create(data: any, params?: any): Promise<any>;
-  update(id: string, data: any, params?:any): Promise<any>;
-  patch(id: string, data: any, params?:any) : Promise<any>;
-  remove(id: string, params?: any): Promise<any>;
-
-  // Realtime interface.
-  on(eventType: string, callback: (data: any) => void);
-  timeout?: number;
+declare function e(): feathers.Application;
+declare namespace e{
+  const rest: typeof restDep;
+  const socketio: typeof socketioDep;
+  const primus: typeof primusDep;
+  const hooks: typeof hooksDep;
+  const authentication: typeof authenticationDep;
 }
