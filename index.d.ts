@@ -1,9 +1,9 @@
-import core from 'feathers/client';
-import restDep from 'feathers-rest/client';
-import socketioDep from 'feathers-socketio/client';
-import primusDep from 'feathers-primus/client';
-import hooksDep from 'feathers-hooks';
-import authenticationDep from 'feathers-authentication-client';
+import * as core from 'feathers/client';
+import * as restDep from 'feathers-rest/client';
+import * as socketioDep from 'feathers-socketio/client';
+import * as primusDep from 'feathers-primus/client';
+import * as hooksDep from 'feathers-hooks';
+import * as authenticationDep from 'feathers-authentication-client';
 
 export as namespace feathers;
 declare function e(): e.Application;
