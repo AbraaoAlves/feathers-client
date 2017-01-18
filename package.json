@@ -68,13 +68,13 @@
   },
   "types": "./index.d.ts",
   "dependencies": {
-    "feathers": "../feathers/feathers-2.0.3.tgz",
-    "feathers-authentication-client": "../feathers-authentication-client/feathers-authentication-client-0.1.6.tgz",
+    "feathers": "https://github.com/AbraaoAlves/feathers/releases/download/definition/feathers-2.0.3.tgz",
+    "feathers-authentication-client": "https://github.com/AbraaoAlves/feathers-authentication-client/releases/download/definition/feathers-authentication-client-0.1.6.tgz",
     "feathers-commons": "^0.8.7",
-    "feathers-hooks": "../feathers-hooks/feathers-hooks-1.7.1.tgz",
-    "feathers-primus": "../feathers-primus/feathers-primus-2.0.0.tgz",
-    "feathers-rest": "../feathers-rest/feathers-rest-1.5.3.tgz",
-    "feathers-socketio": "../feathers-socketio/feathers-socketio-1.4.2.tgz"
+    "feathers-hooks": "https://github.com/AbraaoAlves/feathers-hooks/releases/download/definition/feathers-hooks-1.7.1.tgz",
+    "feathers-primus": "https://github.com/AbraaoAlves/feathers-primus/releases/download/definition/feathers-primus-2.0.0.tgz",
+    "feathers-rest": "https://github.com/AbraaoAlves/feathers-rest/releases/download/definition/feathers-rest-1.5.3.tgz",
+    "feathers-socketio": "https://github.com/AbraaoAlves/feathers-socketio/releases/download/definition/feathers-socketio-1.4.2.tgz"
   },
   "devDependencies": {
     "babel-cli": "^6.1.4",
